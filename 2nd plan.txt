@@ -1,0 +1,8 @@
+<!--copy this code and open Single Post (single.php) file and paste this code above endwhile; line--->
+
+
+//page view count
+setPostViews(get_the_ID());
+
+
+//must be update all file
