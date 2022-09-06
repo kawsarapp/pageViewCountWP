@@ -1,0 +1,6 @@
+<!--copy this and this code place template-parts-> content-single.php any where, I mean where you want to show your page view count, Just paste and update-->
+
+	<?php 
+	echo "Post View ";
+	echo getPostViews(get_the_ID()); 
+	?>
